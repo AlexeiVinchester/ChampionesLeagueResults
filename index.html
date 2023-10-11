@@ -24,7 +24,7 @@
                                 <input type="text" id="login-password" class="input-field" placeholder="Password" required onkeyup="validatePassword('login-password', 'log-password-error')">
                                 <span id="log-password-error"></span>
                             </div>
-                            <button type="submit" class="submit-btn">Log In</button>
+                            <button type="submit" class="submit-btn" onclick="return validateLoginForm()">Log In</button>
                         </div>
                         
                     </form>
@@ -42,7 +42,7 @@
                                 <input type="text" id="reg-password" class="input-field" placeholder="Password" required onkeyup="validatePassword('reg-password', 'reg-password-error')">
                                 <span id="reg-password-error"></span>
                             </div>
-                            <button type="submit" class="submit-btn">Register</button>
+                            <button type="submit" class="submit-btn" onclick="return validateRegisterForm()">Register</button>
                         </div>
                     </form>
                 </div>
